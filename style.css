@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+:root {
+    --cor: #191a1c;
+    --cor2: #1b1f20;
+    --body: #c0c5c5;
+    --cor3-fonte: #929292;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+   background-color: var(--body);
+}
+header {
+    background-color:var(--cor2);
+    color: var(--cor3-fonte);
+    height: 300px;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 50px;
+}
+main {
+    background-color: gray;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+main > p {
+    padding: 30px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: var(--cor2);
+    color: var(--cor3-fonte);
+    height: 100px;
+}
