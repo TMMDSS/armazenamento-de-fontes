@@ -1,10 +1,17 @@
 @charset 'utf-8';
-
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 :root {
     --cor: #191a1c;
     --cor2: #1b1f20;
     --body: #c0c5c5;
     --cor3-fonte: #929292;
+
+    --fonte: 'Jockey One', sans-serif;
+    --fonte2: 'Commissioner', sans-serif;
+
+
+
 }
 * {
     margin: 0px;
@@ -19,19 +26,29 @@ header {
     height: 300px;
     text-align: center;
     font-size: 3em;
+    font-family: var(--fonte);
     padding-top: 50px;
 }
 main {
-    background-color: gray;
-    padding: 30px;
-    max-width: 1200px;
+    background-color: rgb(131, 99, 99);
+    padding: 100px;
+    max-width: 600px;
+    font-family: var(--fonte2);
     margin: auto;
     text-align: center;
 }
 main > p {
+    font-size: 3em;
     padding: 30px;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 
+main > img {
+    width: 85%;
+}
 
 
 
