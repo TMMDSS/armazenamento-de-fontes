@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 :root {
     --cor: #191a1c;
-    --cor2: #1b1f20;
+    --cor2: #202124;
     --body: #c0c5c5;
     --cor3-fonte: #929292;
 
@@ -23,31 +23,33 @@ body {
 header {
     background-color:var(--cor2);
     color: var(--cor3-fonte);
+    box-shadow: 10px 10px 10px black;
     height: 300px;
     text-align: center;
     font-size: 3em;
     font-family: var(--fonte);
+    margin-bottom: 15px;
     padding-top: 50px;
 }
 main {
-    background-color: rgb(131, 99, 99);
+    background-color: var(--cor2);
     padding: 100px;
     max-width: 600px;
-    font-family: var(--fonte2);
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     text-align: center;
 }
 main > p {
     font-size: 3em;
-    padding: 30px;
+    padding: 50px;
 }
 a {
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
 main > img {
-    width: 85%;
+    width: 50%;
 }
 
 
