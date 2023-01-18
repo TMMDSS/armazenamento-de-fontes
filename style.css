@@ -44,7 +44,7 @@ main > p {
     padding: 50px;
 }
 a {
-    color: red;
+    color: var(--cor3-fonte);
     text-decoration: none;
 }
 
