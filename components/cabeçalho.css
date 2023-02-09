@@ -14,3 +14,9 @@
     color: var(--cor);
     font-size: 5em;
 }
+
+.subtitulo {
+    color: black;
+    font-size: 1.2em;
+    text-shadow: none;
+}
