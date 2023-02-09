@@ -6,12 +6,12 @@
 
     
     background-color: rgb(44, 43, 43);
-    color: var(--cor3-fonte);
+    color: var(--cor3);
     font-size: 1em;
     height: 100px;
 }
 
 .rodape > a {
     font-size: normal;
-    color: var(--cor3-fonte);
+    color: var(--cor3);
 }

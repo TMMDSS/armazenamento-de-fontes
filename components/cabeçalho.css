@@ -1,13 +1,16 @@
 .cabeçalho {
     text-align: center;
     padding: 50px;
-    background-color: var(--cor);
-    /*background-image: linear-gradient(to top, var(--cor), var(--cor2) 50%);*/
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top, var(--cor), var(--cor2) 50%);
     color: var(--cor2);
-    text-shadow: 5px 5px 0px black;
+    text-shadow: 2px 2px 7px var(--cor);
+    border-bottom: 2px dashed var(--cor);
+    box-shadow: 0px 10px 50px var(--cor);
 }
 
 .cabeçalho .titulo {
     font-family: var(--fonte);
+    color: var(--cor);
     font-size: 5em;
 }

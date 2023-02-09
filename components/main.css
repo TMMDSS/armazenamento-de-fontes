@@ -12,17 +12,21 @@
     --cor: #7decff;
     --cor2: #202124;
     --body: #c0c5c5;
-    --cor3-fonte: #929292;
+    --cor3: #929292;
 
     --fonte: 'Unica One', cursive;
     --fonte2: 'Commissioner', sans-serif;
 
 }
 
+body {
+    background-color: #000f0f;
+}
 
 
 section {
-    background-color: #413e3e;
+    background-color: var(--cor2);
+    box-shadow: 1px 1px 7px var(--cor);
     display: flex;
     flex-direction: column;
     gap: 10px 10px;
@@ -41,5 +45,6 @@ a {
     color: var(--cor);
     font-size: 1.5em;
     text-decoration: none;
+    text-shadow: 2px 2px 7px var(--cor);
 }
 
